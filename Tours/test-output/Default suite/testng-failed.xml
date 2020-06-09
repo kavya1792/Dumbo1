@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="NewTours.ReservationTest">
+        <methods>
+          <include name="startApp"/>
+          <include name="flightBooking"/>
+          <include name="resrvationVerification"/>
+          <include name="tearDown"/>
+          <include name="exit"/>
+          <include name="Report"/>
+        </methods>
+      </class> <!-- NewTours.ReservationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

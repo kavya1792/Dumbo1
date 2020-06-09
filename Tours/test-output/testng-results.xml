@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="14" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="520998" started-at="2020-05-25T12:41:22Z" finished-at="2020-05-25T12:50:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="520998" started-at="2020-05-25T12:41:22Z" finished-at="2020-05-25T12:50:03Z">
+      <class name="NewTours.FormTest">
+        <test-method status="PASS" signature="Report()[pri:0, instance:NewTours.FormTest@69379752]" name="Report" is-config="true" duration-ms="203" started-at="2020-05-25T12:41:22Z" finished-at="2020-05-25T12:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+        <test-method status="PASS" signature="start()[pri:0, instance:NewTours.FormTest@69379752]" name="start" is-config="true" duration-ms="44555" started-at="2020-05-25T12:41:22Z" finished-at="2020-05-25T12:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="formVerification()[pri:0, instance:NewTours.FormTest@69379752]" name="formVerification" duration-ms="9264" started-at="2020-05-25T12:42:07Z" description="Home page login details" finished-at="2020-05-25T12:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewTours.FormTest@69379752]" name="tearDown" is-config="true" duration-ms="20" started-at="2020-05-25T12:42:16Z" finished-at="2020-05-25T12:42:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=formVerification status=SUCCESS method=FormTest.formVerification()[pri:0, instance:NewTours.FormTest@69379752] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="productVerification()[pri:0, instance:NewTours.FormTest@69379752]" name="productVerification" duration-ms="9694" started-at="2020-05-25T12:42:16Z" description="Products adding to cart" finished-at="2020-05-25T12:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewTours.FormTest@69379752]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-25T12:42:26Z" finished-at="2020-05-25T12:42:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productVerification status=SUCCESS method=FormTest.productVerification()[pri:0, instance:NewTours.FormTest@69379752] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="productSumVerification()[pri:0, instance:NewTours.FormTest@69379752]" name="productSumVerification" duration-ms="24533" started-at="2020-05-25T12:42:26Z" depends-on-methods="NewTours.FormTest.productVerification" finished-at="2020-05-25T12:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSumVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewTours.FormTest@69379752]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-05-25T12:42:50Z" finished-at="2020-05-25T12:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productSumVerification status=SUCCESS method=FormTest.productSumVerification()[pri:0, instance:NewTours.FormTest@69379752] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:NewTours.FormTest@69379752]" name="exit" is-config="true" duration-ms="486" started-at="2020-05-25T12:50:03Z" finished-at="2020-05-25T12:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- NewTours.FormTest -->
+      <class name="NewTours.ReservationTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:NewTours.ReservationTest@27fe3806]" name="startApp" is-config="true" duration-ms="55273" started-at="2020-05-25T12:42:50Z" finished-at="2020-05-25T12:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:NewTours.ReservationTest@27fe3806]" name="flightBooking" duration-ms="52615" started-at="2020-05-25T12:43:46Z" description="Enter details in Flightbooking page" finished-at="2020-05-25T12:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBooking -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewTours.ReservationTest@27fe3806]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-05-25T12:44:38Z" finished-at="2020-05-25T12:44:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flightBooking status=SUCCESS method=ReservationTest.flightBooking()[pri:0, instance:NewTours.ReservationTest@27fe3806] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:NewTours.ReservationTest@27fe3806]" name="startApp" is-config="true" duration-ms="57260" started-at="2020-05-25T12:44:38Z" finished-at="2020-05-25T12:45:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="resrvationVerification()[pri:0, instance:NewTours.ReservationTest@27fe3806]" name="resrvationVerification" duration-ms="38515" started-at="2020-05-25T12:45:35Z" description="Login to New tours and validate headers" finished-at="2020-05-25T12:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resrvationVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewTours.ReservationTest@27fe3806]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-05-25T12:46:14Z" finished-at="2020-05-25T12:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=resrvationVerification status=SUCCESS method=ReservationTest.resrvationVerification()[pri:0, instance:NewTours.ReservationTest@27fe3806] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- NewTours.ReservationTest -->
+      <class name="NewTours.RegistrationTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:NewTours.RegistrationTest@5f71c76a]" name="startApp" is-config="true" duration-ms="55126" started-at="2020-05-25T12:46:14Z" finished-at="2020-05-25T12:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="VerifyConfirmationPage()[pri:0, instance:NewTours.RegistrationTest@5f71c76a]" name="VerifyConfirmationPage" duration-ms="25292" started-at="2020-05-25T12:47:09Z" description="Enter values for Registration" finished-at="2020-05-25T12:47:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyConfirmationPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewTours.RegistrationTest@5f71c76a]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-25T12:47:34Z" finished-at="2020-05-25T12:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyConfirmationPage status=SUCCESS method=RegistrationTest.VerifyConfirmationPage()[pri:0, instance:NewTours.RegistrationTest@5f71c76a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- NewTours.RegistrationTest -->
+      <class name="NewTours.LoginTest">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:NewTours.LoginTest@1d7acb34]" name="startApp" is-config="true" duration-ms="56879" started-at="2020-05-25T12:47:34Z" finished-at="2020-05-25T12:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="invalidLoginVerification()[pri:0, instance:NewTours.LoginTest@1d7acb34]" name="invalidLoginVerification" duration-ms="8032" started-at="2020-05-25T12:48:31Z" description="Invalid login details" finished-at="2020-05-25T12:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginVerification -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewTours.LoginTest@1d7acb34]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-25T12:48:39Z" finished-at="2020-05-25T12:48:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginVerification status=SUCCESS method=LoginTest.invalidLoginVerification()[pri:0, instance:NewTours.LoginTest@1d7acb34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:NewTours.LoginTest@1d7acb34]" name="startApp" is-config="true" duration-ms="53886" started-at="2020-05-25T12:48:39Z" finished-at="2020-05-25T12:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="loginVerfication()[pri:0, instance:NewTours.LoginTest@1d7acb34]" name="loginVerfication" duration-ms="29493" started-at="2020-05-25T12:49:33Z" description="Valid Login details" finished-at="2020-05-25T12:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerfication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:NewTours.LoginTest@1d7acb34]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-25T12:50:03Z" finished-at="2020-05-25T12:50:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginVerfication status=SUCCESS method=LoginTest.loginVerfication()[pri:0, instance:NewTours.LoginTest@1d7acb34] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- NewTours.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
